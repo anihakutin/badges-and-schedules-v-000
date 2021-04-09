@@ -7,7 +7,7 @@ end
 def batch_badge_creator(names)
   msg_lst = []
   names.each do |name|
-    msg_list << badge_maker(name)
+    msg_lst << badge_maker(name)
   end
 end
 #return assigned room messages in an array
