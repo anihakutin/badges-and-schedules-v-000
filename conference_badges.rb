@@ -12,5 +12,12 @@ def batch_badge_creator(names)
   msg_lst
 end
 #return assigned room messages in an array
-
+def assign_rooms(names)
+  room_assignments = []
+  room = 1
+  names.each do |name|
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
+    room += 1
+  end
+end
 #printer
